@@ -1,0 +1,14 @@
+{
+  "name": "html-decoder-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot that decodes a supported custom-obfuscated HTML format without executing it.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "decode:test": "node decoder.js sample.html decoded.html"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
